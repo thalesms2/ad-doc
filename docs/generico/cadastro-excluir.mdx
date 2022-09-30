@@ -1,0 +1,14 @@
+---
+sidebar_position: 1
+---
+
+# Não se exclui cadastros
+Quando é utilizado alguma informação cadastrada, o banco de dados cria relacionamentos entre 
+as tabelas para não ser necessário a repetição de informação dentro do próprio banco de dados
+e por causa disso não pode-se excluir. Caso fosse excluído a força, todo lugar onde esse cadastro
+foi utilizado estaria dando erro já que estaria com campos faltando devido aquela informação antes
+ali, agora estaria excluida.
+O correto é inativar o cadastro.
+## Interface
+O botão excluir existe na tela do cadastro, porque é usado em outras telas e o layout é padronizado, 
+ele não funciona onde o caso acima é verdadeiro.

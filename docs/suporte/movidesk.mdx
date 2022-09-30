@@ -1,0 +1,66 @@
+---
+sidebar_position: 1
+---
+
+# Movidesk
+> Plataforma do [suporte Adsomos.](https://suporte.adsomos.com/)
+## Urgência
+Quão impactante o problema descrito no ticket.
+### Baixo
+- Não é de um sistema da Adsomos;
+### Medio
+- Dúvidas sobre o sistema;
+### Alto
+- Consegue operar com o erro;
+### Urgente
+- Erro impede o faturamento ou operação por completo;
+## Telefonia
+Número                   | Utilidade
+------------------------ | --------------------------------
+*5 + ramal               | Passar para ramal interno
+0 + telefone             | Realizar ligação
+*59275                   | Passar intervenção
+
+## Cadastro de nova pessoa
+Adiciona uma nova pessoa que não consta no sistema no ticket. O mesmo demanda as seguintes informações:
+- Empresa/Organização;
+- Email;
+- Nome;
+### Criar **acesso** à nova pessoa
+> `Acesso` seria logar no portal de suporte, visualizar os tickets abertos, etc.
+- Usuario;
+- Senha;
+- Tipo de solicitante;
+    - Administrador vê todos os tickets da empresa/organização;
+## Atalhos
+Teclas            | Atalho
+----------------- | -----------------
+Ctrl + Espaço     | Ir para ticket...
+Alt + P           | Nova Pessoa
+Alt + T           | Novo Ticket
+
+## Macros
+Nome                     | Utilidade
+------------------------ | ------------------------
+012-suporte-nivel 2      | Mandar para nivel 2
+
+## Status do ticket
+Quando respondido ao NV2 / For retornado para alguém: retorno.
+## Cliente precisa de atualização do sistema
+`Intervenção`, o setor entra em contato com o cliente para marcar a atualização.
+Passar um ticket para a `Intervenção`, passando as informações necessárias.
+## Treinamento
+`Serviços`, criar ticket com módulo a ser treinado e passar para o serviços. **Possui macro**.
+## Nova funcionabilidade
+Cria ticket filho manda para NV2 com as informações da solicitação, **possui macro**, ticket pai utiliza o macro de `enviado para desenvolvimento`.
+## Francisco NV2
+Mandar à fila do Ronaldo, ele monitora somente a fila do Ronaldo.
+## Contra senha
+[Site para gerar contra senha.](https://contrasenha.adsomos.com/ContraSenha/Login/LoginCliente)
+
+Necessário para gerar:
+- Nova senha;
+- CNPJ;
+No ticket:
+- Serviço: Gestor > Principal;
+- Qualificação do ticket: Contra senha;

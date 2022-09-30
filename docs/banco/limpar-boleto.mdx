@@ -1,0 +1,9 @@
+---
+sidebar_position: 7
+---
+
+# Limpar sujeira em boletos
+Comando para limpar boletos presos ao gerar novo boleto.
+```sql
+update fi006 set dpepos = 'G' where dpepos = 'S' and dperem > 0;
+```

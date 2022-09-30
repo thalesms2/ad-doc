@@ -1,0 +1,10 @@
+---
+sidebar_position: 1
+---
+
+# Comando para fazer backup na AtlanFish
+> Devido as particulariedades da empresa o procedimento para fazer backup na AtlanFish é diferente do normal.
+Acessando o terminal digite o comando abaixo alterando o `<VERSAO>` e `<DATA>` para suas respectivas informações atuais.
+```bash
+"C:\Program Files\PostgreSQL\9.6\bin\pg_dump.exe" -h 192.168.0.250 -p 5432 -U postgres -F c -T atu001 -T ge045 -T ge012 -b -v -f "D:\Backup Gestor\GES_ESP_ATLANFISH_V<VERSAO>_<DATA>.backup" "Gestor001A"
+```
