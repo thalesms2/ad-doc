@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/thalesms2/ad-doc/',
+            'https://github.com/thalesms2/ad-doc/tree/main/',
         },
         blog: {
           showReadingTime: true,
