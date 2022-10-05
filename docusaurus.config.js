@@ -26,7 +26,14 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        maxSearchResults: 20
+      },
+    ]
+  ],
   presets: [
     [
       'classic',
