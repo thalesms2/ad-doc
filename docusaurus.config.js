@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Adsomos Docs',
-  tagline: 'Documentações',
+  tagline: 'Documentações para sistemas das industrias',
   url: 'https://ad-doc.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -74,9 +74,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentação',
+            label: '📚 Documentação',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '📰 Blog', position: 'left'},
           {
             href: 'https://github.com/thalesms2/ad-docs',
             label: 'GitHub',
@@ -114,7 +114,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Documentação',
+                label: '📚 Documentação',
                 to: '/docs/intro',
               },
             ],
@@ -141,7 +141,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
               {
                 label: 'Blog',
