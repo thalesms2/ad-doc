@@ -30,7 +30,6 @@ const config = {
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
-        style: undefined,
         maxSearchResults: 20,
       }
     ],
