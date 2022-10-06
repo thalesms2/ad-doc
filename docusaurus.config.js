@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Adsomos Docs',
   tagline: 'Documentações',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ad-doc.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,14 +17,14 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'thalesms2', // Usually your GitHub org/user name.
-  projectName: 'ad-docs', // Usually your repo name.
+  projectName: 'ad-doc', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-br',
+    locales: ['pt-br'],
   },
   plugins: [
     [
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/thalesms2/ad-doc/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -120,19 +120,23 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Adsomos',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Site',
+                href: 'https://adsomos.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Suporte',
+                href: 'https://suporte.adsomos.com/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Wiki',
+                href: 'https://wiki.adsomos.com/',
+              },              
+              {
+                label: 'Contrassenha',
+                href: 'https://contrasenha.adsomos.com/ContraSenha/Login/Index?ReturnUrl=%2fContraSenha%2f',
               },
             ],
           },
@@ -142,10 +146,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
