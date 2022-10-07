@@ -135,6 +135,10 @@ const config = {
                 href: 'https://wiki.adsomos.com/',
               },              
               {
+                label: 'Central de downloads',
+                href: 'https://downloads.adsomos.com/',
+              },
+              {
                 label: 'Contrassenha',
                 href: 'https://contrasenha.adsomos.com/ContraSenha/Login/Index?ReturnUrl=%2fContraSenha%2f',
               },
