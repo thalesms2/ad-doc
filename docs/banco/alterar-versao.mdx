@@ -2,10 +2,14 @@
 sidebar_position: 2
 ---
 
-# Alterar versão do banco de dados local
-Utilizar para realizar testes caso a versão do cliente esteja atrasada em relação a mais atual para verificar se os problemas já não foram corrigidos.
+# Alterar versão do banco de dados LOCAL
+Utilizar para realizar testes caso a versão do cliente esteja atrasada em relação a mais 
+atual, para verificar se os problemas já não foram corrigidos.
+
 ```sql
 update fi099 set parverbd = '<VERSAO>'
+```
+```sql
 -- Exemplo:
 update fi099 set parverbd = '22.2.0'
 ```

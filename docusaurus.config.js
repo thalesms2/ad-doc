@@ -151,6 +151,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              {
+                label: 'Telefones úteis',
+                to: '/docs/suporte/telefones',
+              },
             ],
           },
         ],

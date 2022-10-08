@@ -2,7 +2,11 @@
 sidebar_position: 11
 ---
 
-# Alterar status da Nota fiscal eletrônica NF-e no sistema para poder cancelar novamente 
+# Alterar status da NF-e para conseguir cancelar
+Quando nota fiscal eletrônica estiver cancelado no sistema, porém, na SEFAZ e na 
+consulta ainda estiver autorizada é necessário voltar o status dela para autorizado no 
+sistema para poder cancelar corretamente, uma vez que esse problema ocorre quando 
+o processo de cancelamento não foi concluido completamente.
 ```sql
 UPDATE ve005 SET notnfesta = '100' where notnum = '<Número da nota>'
 ```
