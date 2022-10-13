@@ -55,8 +55,8 @@ const config = {
           // the search term appears in just the text. This is done by "boosting" title matches with a
           // higher value than content matches. The concrete boosting behavior can be controlled by changing
           // the following settings.
-          titleBoost: 3,
-          contentBoost: 4,
+          titleBoost: 1,
+          contentBoost: 5,
           tagsBoost: 3,
       }
     ],
