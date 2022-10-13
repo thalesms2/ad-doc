@@ -58,6 +58,7 @@ const config = {
           titleBoost: 1,
           contentBoost: 5,
           tagsBoost: 3,
+        }
       }
     ],
   ],
