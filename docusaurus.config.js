@@ -32,7 +32,7 @@ const config = {
       {
         language: "pt",
         maxSearchResults: 20,
-        indexDocs: false,
+        indexDocs: true,
       }
     ],
   ],
