@@ -1,0 +1,8 @@
+# Código novo informando estar sendo utilizado ao tentar replicar
+Ao tentar replicar produto informa que o código já possui produto cadastrado,
+porém, o código é serializado pelo sistema.
+O erro é porque possui sujeira no banco com a informação de código vazio.
+Para ajustar deletar a coluna que retornar do Select seguinte:
+```sql
+select * from es001 where procod = ''
+```
