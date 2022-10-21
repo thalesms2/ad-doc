@@ -1,0 +1,29 @@
+---
+slug:  tessile
+title: Tessile
+authors: [thales]
+tags: [cliente, Tessile, Especialista, Nota Triangular]
+---
+
+# Tessile
+
+Dona: Luciana
+
+## Processo de venda e expedição
+trabalham com estoque detalhado e reserva de estoque no pedido, estoque detalhado gera os volumes
+que seriam as etiquetas que identificam os rolos. Estoque fica reservado e 
+a pessoa que libera o pedido precisa selecionar no estoque detalhado qual o volume que no caso
+deles é o rolo de tecido que será vendido no pedido, o sistema `SUGERE` quais os rolos que
+deveriam ir seguindo a lógica da regra de negócio da empresa onde elas preferem dar desconto
+na venda ao invez de cortar um rolo. Então o sistema irá dar prioridade para os que foram
+emitido antes e se possivel fazer a operação sem cortar o rolo.
+
+## Resoluções:
+alteração nas reservas feitas pelo volume `1290` caso necessário alterar a númeração para 
+o volume que precisa ser alterado, ajustar como a necessidade, validar peso liquido
+
+```sql
+select etfcod, etfpesliq, etfhoremi, etfqtdun, etfrestot from es009 where etfcod = '1290'
+
+select * from es0092 where etfcod = '1290'
+```
