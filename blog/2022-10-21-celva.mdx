@@ -1,0 +1,15 @@
+---
+slug:  celva
+title: Malharia Celva | TKK Industria e Comercio
+authors: [thales]
+tags: [cliente, Malharia, Celva, TKK, servidor, logmein]
+---
+
+# Malharia Celva | TKK Industria e Comercio
+
+## Servidor logmein
+O servidor deles possui as bases das duas empresas no mesmo servidor 
+onde os terminais apontam para o servidor utilizam a base `A` e acesso via WTS
+é utilizado a base `B`, então quando houver atualização de executáveis ou algum teste que precise
+executar nas duas bases é necessário alterar no `ODBC DO USUÁRIO` e não do sistema, porque
+se for alterado o ODBC do sistema ele vai alterar a base que é feito os procedimentos pelo WTS.
