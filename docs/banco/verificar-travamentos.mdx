@@ -3,7 +3,7 @@ sidebar_position: 10
 ---
 
 # Verificar travamentos
-## Versão 9.6
+## Versão 9.6 Sem usuário
 ```sql
 SELECT 
     pg_class.relname,
@@ -27,7 +27,7 @@ WHERE
 ORDER BY status.pid, pg_class.relname
 
 ```
-## Versão 8.3
+## Versão 9.6 informa usuário
 ```sql
 SELECT 
     pg_class.relname,
@@ -51,7 +51,7 @@ WHERE
     AND status.mode <> 'AccessShareLock'
 ORDER BY status.pid, pg_class.relname
 ```
-# Quando não funciona o SQL da versão usar esse:
+## Versão 8.3
 ```sql
 SELECT 
     pg_locks.mode,
