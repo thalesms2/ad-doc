@@ -1,0 +1,13 @@
+# Comando para retirar o aviso de contrassenha do sistema
+
+:::caution
+
+NÃO USAR EM PRODUÇÃO.
+
+:::
+
+```sql
+update ge001 --tabela da contrassenha
+set sendias = 90, --dias liberados de contrassenha
+senultatu = 'now' --data da ultima contrassenha
+```
