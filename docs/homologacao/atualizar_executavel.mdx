@@ -1,0 +1,11 @@
+# Atualizar executáveis com data menor dos que já estão no banco de dados
+
+Roda esse comando para apagar o executável da base:
+```sql
+delete from atu001 where appnom = '<NOME_DO_EXECUTAVEL.EXE>'
+```
+Faz a atualização do executável pelo WS (Utilizando o arquivo zipado do executável).
+Roda esse comando para atualizar na base a data do executável
+```sql
+update atu001 set appdata = now() where appnom = '<NOME_DO_EXECUTAVEL.EXE>'
+```
